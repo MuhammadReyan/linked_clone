@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.feedInputOptions {
+    display: flex !important;
+    align-items: center !important;
+    margin-top: 15px !important;
+    color: gray !important;
+    padding: 10px !important;
+    cursor: pointer !important;
+}
+
+.feedInputOptions:hover {
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.feedInputOptions>h4 {
+    margin-left: 5px;
+    font-weight: 600;
+}

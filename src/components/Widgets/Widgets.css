@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.widgets {
+    flex: 0.2;
+    position: sticky !important;
+    top: 80px !important;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    height: fit-content;
+    padding-bottom: 10px;
+}
+
+.widgets_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.widgets_header>h2 {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.widgets_article {
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.widgets_article:hover {
+    background-color: whitesmoke;
+}
+
+.widgets_articleLeft {
+
+    color: #0177b7;
+    margin-right: 5px;
+
+}
+
+.widgets_articleLeft>.MuiSvgIcon-root {
+    font-size: 15px;
+}
+
+.widgets_articleRight {
+    flex: 1;
+}
+
+.widgets_articleRight>h4 {
+    font-size: 14px;
+}
+
+.widgets_articleRight>p {
+    font-size: 12px;
+    color: gray;
+}
